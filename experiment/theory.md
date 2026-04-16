@@ -17,3 +17,19 @@ The gap is adjusted between electrodes in accordance with British Standard Speci
 3. The multiple point control switch is set at its lowest tapping.
 
 4. The push button on control unit is pressed firmly for at least 5 seconds. Note that no breakdown occurs, in which case button should be released at once without delay. Breakdown is indicated by a continuous discharge across the gap, bubbling of oil in the cell and meter indicating a sudden voltage drop.
+
+5. ## Experiment 4 - Equipments Required
+
+## Fig.1: Portable oil testing set
+
+![Portable oil testing set](images/exp4/TRsetup.JPG)
+![Transformer 1](images/exp4/Tr1.JPG)
+![Transformer 2](images/exp4/Tr2.JPG)
+
+## Fig.2: HV transformer
+
+![HV transformer](images/exp4/tr3.JPG)
+
+## Fig.3: Gap setting gauge
+
+![Gap setting gauge](images/exp4/tr4.JPG)
