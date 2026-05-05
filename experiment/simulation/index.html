@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation of Exp4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-		<!-- Your code goes here-->
-
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <div class="simulation-container">
+        <div class="top-row">
+            <div class="control-box">
+                <div class="dotted-box">
+                    <div class="label">Voltmeter(KV)</div>
+                    <div id="voltmeter-display" class="voltmeter">0</div>
+                </div>
+                <div class="dotted-box">
+                    <div class="label">Increase Voltage</div>
+                    <button id="btn-increase" class="btn-green-square"></button>
+                </div>
+                <button id="btn-restart" class="btn-gray">Restart Test</button>
+            </div>
+            
+            <div class="wires">
+                <div class="wire"></div>
+                <div class="wire"></div>
+            </div>
+            
+            <div class="apparatus-box">
+                <canvas id="apparatus-canvas" width="260" height="260"></canvas>
+            </div>
+        </div>
+        
+        <div class="bottom-row">
+            <div class="controls-left">
+                <button id="btn-change-oil" class="btn-gray">Change Transformer Oil</button>
+                <div class="breakdowns-section">
+                    <div class="label-bold">BreakDowns-</div>
+                    <select id="breakdown-list" size="5" class="breakdown-list"></select>
+                </div>
+            </div>
+            
+            <div class="graph-section">
+                <div class="graph-wrapper">
+                    <div class="y-axis-label">Voltage(V)</div>
+                    <canvas id="graph-canvas" width="450" height="250"></canvas>
+                    <div class="x-axis-label">Time(t)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
