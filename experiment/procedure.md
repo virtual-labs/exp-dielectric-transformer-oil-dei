@@ -14,7 +14,7 @@
 
 ## Fig 4.1: Portable oil testing set (50 kV)
 
-![Connection Diagram](../Dreamweaver/images/exp4/vlab4.jpg)
+![Connection Diagram](images/exp4/vlab4.jpg)
 
 **Components:**
 - A - Socket for Supply loads
