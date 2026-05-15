@@ -1,1 +1,1 @@
-## To measure the dielectric strength of transformer oil.
+## Measurement of Dielectric Strength of Transformer Oil
