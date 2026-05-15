@@ -1,10 +1,10 @@
 {
   "version": 2.0,
-  "quiz_title": "QUIZ - 4",
+  
   "questions": [
     {
-      "num": 6,
-      "question": "When oil decomposed it liberates-",
+    
+      "question": "6. When oil decomposed it liberates-",
       "answers": {
         "a": "Carbon",
         "b": "Hydrogen",
@@ -21,8 +21,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 7,
-      "question": "Dielectric strengths of Air at NTP is",
+    
+      "question": "7. Dielectric strengths of Air at NTP is",
       "answers": {
         "a": "50 kV/mm",
         "b": "25 kV/mm",
@@ -39,8 +39,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 8,
-      "question": "The Break Down Voltage (BDV) of transformer oil is measured when-",
+      
+      "question": "8. The Break Down Voltage (BDV) of transformer oil is measured when-",
       "answers": {
         "a": "One point flash occurs",
         "b": "Two point flash occurs",
@@ -57,8 +57,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 9,
-      "question": "The most commonly used unit of dielectric strength is -",
+   
+      "question": "9. The most commonly used unit of dielectric strength is -",
       "answers": {
         "a": "kV/mm.",
         "b": "V/cm.",
@@ -75,8 +75,8 @@
       "difficulty": "beginner"
     },
     {
-      "num": 10,
-      "question": "The maximum pour point temperature of dielectric oil is-",
+      
+      "question": "10.The maximum pour point temperature of dielectric oil is-",
       "answers": {
         "a": "-6° C",
         "b": "10° C",
