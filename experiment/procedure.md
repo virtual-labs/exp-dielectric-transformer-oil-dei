@@ -1,4 +1,3 @@
-# Experiment 4 - Observations
 
 ## Observation Table
 
