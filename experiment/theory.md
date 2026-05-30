@@ -47,7 +47,7 @@ The gap is adjusted between electrodes in accordance with British Standard Speci
 
 <br/><br/><br/>
 <div style="text-align: center;">
-    <b style="font-size:18px">Experiment 4. To measure the dielectric strength of transformer oil.</b><br/><br/>
+    <b style="font-size:18px"> To measure the dielectric strength of transformer oil.</b><br/><br/>
     <video width="480" height="360" controls>
         <source src=" videos/Video4.mp4" type="video/mp4">
     </video>
