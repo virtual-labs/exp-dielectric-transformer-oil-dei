@@ -8,28 +8,47 @@ The equipment is designed to operate from 200/250V, 50Hz, Single phase AC supply
 
 The gap is adjusted between electrodes in accordance with British Standard Specification (BSS) no. 148.
 
-## Procedural Steps
 
-1. Place the High Voltage transformer unit about 7 feet away from the control unit.
+ ##  Equipments Required
 
-2. The control unit is connected to supply voltage taking care that the earth connections are effective.
+### Fig.1: Portable oil testing set
 
-3. The multiple point control switch is set at its lowest tapping.
-
-4. The push button on control unit is pressed firmly for at least 5 seconds. Note that no breakdown occurs, in which case button should be released at once without delay. Breakdown is indicated by a continuous discharge across the gap, bubbling of oil in the cell and meter indicating a sudden voltage drop.
-
-5. ## Experiment 4 - Equipments Required
-
-## Fig.1: Portable oil testing set
+<div align="center">
 
 ![Portable oil testing set](images/exp4/TRsetup.JPG)
+
 ![Transformer 1](images/exp4/Tr1.JPG)
+
 ![Transformer 2](images/exp4/Tr2.JPG)
 
-## Fig.2: HV transformer
+</div>
+
+### Fig.2: HV transformer
+
+<div align="center">
 
 ![HV transformer](images/exp4/tr3.JPG)
 
-## Fig.3: Gap setting gauge
+</div>
+
+### Fig.3: Gap setting gauge
+
+<div align="center">
 
 ![Gap setting gauge](images/exp4/tr4.JPG)
+
+</div>
+
+
+<!-- end #menu -->
+
+## Video for experiment:
+
+
+<br/><br/><br/>
+<div style="text-align: center;">
+    <b style="font-size:18px">Experiment 4. To measure the dielectric strength of transformer oil.</b><br/><br/>
+    <video width="480" height="360" controls>
+        <source src=" videos/video4.mp4" type="video/mp4">
+    </video>
+</div>
