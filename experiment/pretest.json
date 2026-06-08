@@ -1,9 +1,7 @@
 {
   "version": 2.0,
-  
   "questions": [
     {
-     
       "question": "1. Dielectric oil used in transformer is",
       "answers": {
         "a": "Vegetable oil",
@@ -17,11 +15,9 @@
         "c": "Synthetic oil is used in special applications, not as the standard.",
         "d": "Incorrect because refined mineral oil is used."
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
-     
       "question": "2. Oil used in transformer for-",
       "answers": {
         "a": "Cooling",
@@ -35,11 +31,9 @@
         "c": "Incorrect. Transformer oil is not used for lubrication.",
         "d": "Correct. Transformer oil acts as both a coolant and a dielectric insulator."
       },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
+      "correctAnswer": "d"
     },
     {
-      
       "question": "3. The flash temperature of dielectric oil used in transformer",
       "answers": {
         "a": "140° C",
@@ -53,11 +47,9 @@
         "c": "Too high.",
         "d": "Too low; that is near room temperature."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     },
     {
-     
       "question": "4. The dielectric strength of transformer oil is-",
       "answers": {
         "a": "25 kV/mm.",
@@ -71,11 +63,9 @@
         "c": "Too low for good quality oil.",
         "d": "Too low."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     },
     {
-    
       "question": "5. The color of good transformer oil is-",
       "answers": {
         "a": "Dark Black",
@@ -89,8 +79,7 @@
         "c": "Incorrect.",
         "d": "Incorrect because transparent yellow is correct."
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     }
   ]
 }
