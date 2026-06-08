@@ -1,10 +1,8 @@
 {
   "version": 2.0,
-  
   "questions": [
     {
-    
-      "question": "6. When oil decomposed it liberates-",
+      "question": "1. When oil decomposed it liberates-",
       "answers": {
         "a": "Carbon",
         "b": "Hydrogen",
@@ -17,12 +15,10 @@
         "c": "Correct. Thermal decomposition of transformer oil releases carbon and hydrogen (and some hydrocarbons).",
         "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "c"
     },
     {
-    
-      "question": "7. Dielectric strengths of Air at NTP is",
+      "question": "2. Dielectric strengths of Air at NTP is",
       "answers": {
         "a": "50 kV/mm",
         "b": "25 kV/mm",
@@ -35,12 +31,10 @@
         "c": "Too high.",
         "d": "Correct. Air at NTP has dielectric strength of approximately 3 kV/mm (or 30 kV/cm)."
       },
-      "correctAnswer": "d",
-      "difficulty": "intermediate"
+      "correctAnswer": "d"
     },
     {
-      
-      "question": "8. The Break Down Voltage (BDV) of transformer oil is measured when-",
+      "question": "3. The Break Down Voltage (BDV) of transformer oil is measured when-",
       "answers": {
         "a": "One point flash occurs",
         "b": "Two point flash occurs",
@@ -53,12 +47,10 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     },
     {
-   
-      "question": "9. The most commonly used unit of dielectric strength is -",
+      "question": "4. The most commonly used unit of dielectric strength is -",
       "answers": {
         "a": "kV/mm.",
         "b": "V/cm.",
@@ -71,12 +63,10 @@
         "c": "MV/mm is too large for most materials.",
         "d": "kV/m is used for very large gaps but less common for solids/liquids."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
     },
     {
-      
-      "question": "10.The maximum pour point temperature of dielectric oil is-",
+      "question": "5.The maximum pour point temperature of dielectric oil is-",
       "answers": {
         "a": "-6° C",
         "b": "10° C",
@@ -89,8 +79,7 @@
         "c": "Too high.",
         "d": "Far too high."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     }
   ]
 }
