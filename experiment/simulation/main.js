@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnRestart = document.getElementById("btn-restart");
     const btnChangeOil = document.getElementById("btn-change-oil");
     const breakdownList = document.getElementById("breakdown-list");
+    const sparkGif = document.getElementById("spark-gif");
     
     const graphCanvas = document.getElementById("graph-canvas");
     const graphCtx = graphCanvas.getContext("2d");
@@ -116,6 +117,11 @@ document.addEventListener("DOMContentLoaded", () => {
         
         drawApparatus(true);
         
+        // Show the spark GIF — reload src to restart animation from frame 1
+        const gifSrc = sparkGif.getAttribute("src").split("?")[0];
+        sparkGif.src = gifSrc + "?t=" + Date.now();
+        sparkGif.style.display = "block";
+        
         setTimeout(() => {
             timeData.push(time + 0.1);
             voltageData.push(0);
@@ -127,6 +133,11 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             drawApparatus(false);
         }, 400);
+        
+        // Hide GIF after it has had time to play (~1.5 s)
+        setTimeout(() => {
+            sparkGif.style.display = "none";
+        }, 1500);
     }
 
     function updateVoltmeter() {
@@ -259,24 +270,24 @@ document.addEventListener("DOMContentLoaded", () => {
         appCtx.lineWidth = 1;
         
         // Rods
-        appCtx.fillRect(bx - 10, cy - 4, rW/2 - 5, 8);
-        appCtx.fillRect(cx + 15, cy - 4, rW/2 - 5, 8);
+        appCtx.fillRect(bx - 10, cy - 4, rW/2 - 10, 8);
+        appCtx.fillRect(cx + 20, cy - 4, rW/2 - 10, 8);
         
         // Spheres
         appCtx.beginPath();
-        appCtx.arc(cx - 15, cy, 15, -Math.PI/2, Math.PI/2, false);
+        appCtx.arc(cx - 20, cy, 15, -Math.PI/2, Math.PI/2, false);
         appCtx.fill();
         appCtx.stroke();
         appCtx.beginPath();
-        appCtx.arc(cx - 15, cy, 15, Math.PI/2, -Math.PI/2, false);
+        appCtx.arc(cx - 20, cy, 15, Math.PI/2, -Math.PI/2, false);
         appCtx.fill();
         
         appCtx.beginPath();
-        appCtx.arc(cx + 15, cy, 15, Math.PI/2, -Math.PI/2, false);
+        appCtx.arc(cx + 20, cy, 15, Math.PI/2, -Math.PI/2, false);
         appCtx.fill();
         appCtx.stroke();
         appCtx.beginPath();
-        appCtx.arc(cx + 15, cy, 15, -Math.PI/2, Math.PI/2, false);
+        appCtx.arc(cx + 20, cy, 15, -Math.PI/2, Math.PI/2, false);
         appCtx.fill();
         
         if (showSpark) {
@@ -286,10 +297,10 @@ document.addEventListener("DOMContentLoaded", () => {
             appCtx.lineJoin = "round";
             
             appCtx.beginPath();
-            appCtx.moveTo(cx - 15, cy);
-            appCtx.lineTo(cx - 5, cy - 8 + Math.random()*16);
-            appCtx.lineTo(cx + 5, cy - 8 + Math.random()*16);
-            appCtx.lineTo(cx + 15, cy);
+            appCtx.moveTo(cx - 5, cy);
+            appCtx.lineTo(cx - 2, cy - 8 + Math.random()*16);
+            appCtx.lineTo(cx + 2, cy - 8 + Math.random()*16);
+            appCtx.lineTo(cx + 5, cy);
             appCtx.stroke();
             
             appCtx.shadowColor = "white";
@@ -307,4 +318,3 @@ document.addEventListener("DOMContentLoaded", () => {
     drawApparatus(false);
     drawGraph();
 });
-
