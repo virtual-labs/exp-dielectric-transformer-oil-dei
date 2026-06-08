@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulation of Exp4</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="simulation-container">
@@ -26,8 +26,14 @@
                 <div class="wire"></div>
             </div>
             
-            <div class="apparatus-box">
+            <div class="apparatus-box" style="position:relative; display:inline-block;">
                 <canvas id="apparatus-canvas" width="260" height="260"></canvas>
+                <img id="spark-gif"
+                     src="Video4.gif.gif"
+                     alt="spark"
+                     style="display:none; position:absolute; top:0; left:0;
+                            width:100%; height:100%; object-fit:cover;
+                            pointer-events:none; z-index:10;">
             </div>
         </div>
         
@@ -49,6 +55,6 @@
             </div>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
