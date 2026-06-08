@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Dielectric oil used in transformer is",
+      "answers": {
+        "a": "Vegetable oil",
+        "b": "Refined Mineral oil",
+        "c": "Synthetic oil",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Vegetable oil is not standard for transformer insulation.",
+        "b": "Correct. Refined mineral oil is the most commonly used dielectric oil in transformers.",
+        "c": "Synthetic oil is used in special applications, not as the standard.",
+        "d": "Incorrect because refined mineral oil is used."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "2. Oil used in transformer for-",
+      "answers": {
+        "a": "Cooling",
+        "b": "Dielectric",
+        "c": "Lubricating",
+        "d": "Both for cooling and dielectric"
+      },
+      "explanations": {
+        "a": "Partial answer. Oil does provide cooling, but also insulation.",
+        "b": "Partial answer. Oil provides dielectric strength, but also cooling.",
+        "c": "Incorrect. Transformer oil is not used for lubrication.",
+        "d": "Correct. Transformer oil acts as both a coolant and a dielectric insulator."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "3. The flash temperature of dielectric oil used in transformer",
+      "answers": {
+        "a": "140° C",
+        "b": "200° C",
+        "c": "300° C",
+        "d": "30° C"
+      },
+      "explanations": {
+        "a": "Correct. Flash point of transformer oil is typically around 140°C to 160°C.",
+        "b": "Too high for standard transformer oil.",
+        "c": "Too high.",
+        "d": "Too low; that is near room temperature."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "4. The dielectric strength of transformer oil is-",
+      "answers": {
+        "a": "25 kV/mm.",
+        "b": "50 kV/mm.",
+        "c": "12 kV/mm.",
+        "d": "10 kV/mm."
+      },
+      "explanations": {
+        "a": "Correct. Good transformer oil has a dielectric strength of about 25 kV/mm (or 30 kV for 2.5 mm gap commonly).",
+        "b": "Too high for standard oil.",
+        "c": "Too low for good quality oil.",
+        "d": "Too low."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "5. The color of good transformer oil is-",
+      "answers": {
+        "a": "Dark Black",
+        "b": "Transparent Yellow",
+        "c": "Dark Blue",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Dark black indicates contamination or aging.",
+        "b": "Correct. Good transformer oil is clear to light transparent yellow.",
+        "c": "Incorrect.",
+        "d": "Incorrect because transparent yellow is correct."
+      },
+      "correctAnswer": "b"
+    }
+  ]
+}

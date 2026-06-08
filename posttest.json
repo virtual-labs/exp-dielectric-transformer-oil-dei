@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. When oil decomposed it liberates-",
+      "answers": {
+        "a": "Carbon",
+        "b": "Hydrogen",
+        "c": "Carbon and Hydrogen",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Partial. Decomposition produces both carbon and hydrogen.",
+        "b": "Partial.",
+        "c": "Correct. Thermal decomposition of transformer oil releases carbon and hydrogen (and some hydrocarbons).",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "2. Dielectric strengths of Air at NTP is",
+      "answers": {
+        "a": "50 kV/mm",
+        "b": "25 kV/mm",
+        "c": "12 kV/mm",
+        "d": "3 kV/mm"
+      },
+      "explanations": {
+        "a": "Too high for air.",
+        "b": "Too high.",
+        "c": "Too high.",
+        "d": "Correct. Air at NTP has dielectric strength of approximately 3 kV/mm (or 30 kV/cm)."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "3. The Break Down Voltage (BDV) of transformer oil is measured when-",
+      "answers": {
+        "a": "One point flash occurs",
+        "b": "Two point flash occurs",
+        "c": "Multi point flash occurs",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct. BDV test measures the voltage at which the first flashover or spark occurs.",
+        "b": "Incorrect. The test stops at first flash.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "4. The most commonly used unit of dielectric strength is -",
+      "answers": {
+        "a": "kV/mm.",
+        "b": "V/cm.",
+        "c": "MV/mm.",
+        "d": "kV/m."
+      },
+      "explanations": {
+        "a": "Correct. kV/mm is the most common unit for dielectric strength in practical applications.",
+        "b": "V/cm is too small and less common.",
+        "c": "MV/mm is too large for most materials.",
+        "d": "kV/m is used for very large gaps but less common for solids/liquids."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "5.The maximum pour point temperature of dielectric oil is-",
+      "answers": {
+        "a": "-6° C",
+        "b": "10° C",
+        "c": "1° C",
+        "d": "50° C"
+      },
+      "explanations": {
+        "a": "Correct. The maximum pour point for transformer oil is typically around -6°C to -9°C (IS 335 standard).",
+        "b": "Too high; oil would solidify in cold weather.",
+        "c": "Too high.",
+        "d": "Far too high."
+      },
+      "correctAnswer": "a"
+    }
+  ]
+}
